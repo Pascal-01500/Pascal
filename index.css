@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 70px;
+}
+
+.Image1 {
+    display: flex;        /* utilise Flexbox pour aligner les images */
+    filter: brightness(0.2); /* rend les images plus sombres pour faire ressortir le texte */
+    z-index: -1;          /* place les images derrière le texte */
+    position:absolute;    /* positionne les images de manière absolue */
+    left: 0px;            /* positionne la première image à gauche */
+    top: 0px;             /* positionne les images en haut de la page */
+    right:0px;            /* positionne la deuxième image à droite */
+    bottom: 0px;          /* positionne les images en bas de la page */
+}
+
+.Image2 {
+    display: flex;        /* utilise Flexbox pour aligner les images */
+    filter: brightness(0.2);
+    z-index: -1;          /* place les images derrière le texte */
+    position:absolute;    /* positionne les images de manière absolue */
+    left: 50%;            /* positionne la première image à gauche */
+    top: 0px;             /* positionne les images en haut de la page */
+    right:0px;            /* positionne la deuxième image à droite */
+    bottom: 0px;          /* positionne les images en bas de la page */
+}
+
+h2 {
+    font-size: 40px;
+    position:absolute;
+    left: 25%;          /* positionne le titre "tatouage" à 25% de la largeur de la page */
+    top: 80%;           /* positionne le titre "tatouage" à 80% de la hauteur de la page */
+}
+
+h3 {
+    font-size: 40px;
+    position:absolute;
+    left: 75%;          /* positionne le titre "peinture" à 75% de la largeur de la page */
+    top: 80%;           /* positionne le titre "peinture" à 80% de la hauteur de la page */
+}
